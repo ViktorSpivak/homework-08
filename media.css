@@ -1,0 +1,37 @@
+@media (max-width:320px){
+
+    .menu-list{padding-top: 32px; padding-bottom: 120px; text-align:center;}
+    .logo {margin: 0 auto; padding-bottom: 32px;}
+    .topic h1{padding-bottom: 14px;}
+    .topic h2{padding-bottom: 12px;}
+    .topic div{padding-bottom: 134px;}
+   .see-other{padding-bottom: 58px; padding-top: 28px;}
+}
+
+@media (min-width:321px) {
+
+    .container {width:492px;}
+
+.menu{display: inline-flex;width: 100%; flex-direction: row-reverse;  justify-content: space-between; padding-top: 40px; padding-bottom: 148px;}
+  
+.back-layout{background-image: url(./image/photo-tablet.png);}
+.topic h1{font-size: 52px; padding-bottom: 28px;}
+.topic h2{font-size: 22px; padding-bottom: 30px;}
+.topic div{padding-bottom: 230px;}
+
+.topic2{padding-top: 70px; padding-bottom: 0;}
+
+.partners{display: inline-flex;flex-wrap: wrap; justify-content: space-between;}
+.partner-box{width: 48%;padding-bottom: 28px; padding-top: 28px;}
+
+.see-other{padding-top: 38px;padding-bottom: 40px;}
+}
+
+@media (min-width: 961px) {
+
+    .container{width:940px;}
+    .back-layout{background-image: url(./image/photo-desk.png);}
+    .partner-box{width: 23%;margin: 0; padding-top: 32px;}
+    .see-other{padding-bottom: 74px;}
+
+}
