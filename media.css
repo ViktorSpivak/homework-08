@@ -1,13 +1,3 @@
-@media (max-width:320px){
-
-    .menu-list{padding-top: 32px; padding-bottom: 120px; text-align:center;}
-    .logo {margin: 0 auto; padding-bottom: 32px;}
-    .topic h1{padding-bottom: 14px;}
-    .topic h2{padding-bottom: 12px;}
-    .topic div{padding-bottom: 134px;}
-   .see-other{padding-bottom: 58px; padding-top: 28px;}
-}
-
 @media (min-width:321px) {
 
     .container {width:492px;}

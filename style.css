@@ -36,9 +36,10 @@ img{display: block;}
 body{font-family: 'Montserrat', sans-serif; font-weight: 700;margin: 0;}
 main{margin: 0;}
 
-.container{width: inherit;margin: 0 auto; padding: 0;}
+.container{width: 320px;margin: 0 auto; padding: 0;}
 
-.menu-list{margin: 0;padding: 0; list-style: none;}
+.logo {margin: 0 auto; padding-bottom: 32px;}
+.menu-list{padding-top: 32px; padding-bottom: 120px; text-align:center; margin: 0;padding: 0; list-style: none;}
 .menu-list li{display: inline-block;}
 .menu-list-link{color: #ffffff; text-decoration: none;  font-size: 14px;border:2px solid transparent;border-radius:2em;padding: .5em 1em; }
 
@@ -46,8 +47,9 @@ main{margin: 0;}
 
 .back-layout{width: 100%; background-image: url(./image/photo-mobile.png); background-size: cover;}
 .topic{ text-align: center;  margin: 0;color: #ffffff;}
-.topic h1{font-size: 30px;text-transform: uppercase;margin: 0;}
-.topic h2{ font-size: 18px; margin: 0;font-family: 'Roboto', serif;font-weight:300;}
+.topic h1{padding-bottom: 14px; font-size: 30px;text-transform: uppercase;margin: 0;}
+.topic h2{padding-bottom: 12px; font-size: 18px; margin: 0;font-family: 'Roboto', serif;font-weight:300;}
+.topic div{padding-bottom: 134px;}
 .topic-link{padding:10px 20px; border-radius:2rem; height: 40px;line-height: 40px; background-color: #ff4e50; text-decoration: none; font-size: 14px; color: #ffffff;}
 
 .topic2{text-align: center; padding: 66px 0 14px; margin: 0;}
@@ -63,5 +65,5 @@ main{margin: 0;}
 .partner-box h3 {margin: 0; padding-top:16px; font-size:14px;} 
 .partner-box h4 {margin: 0;padding-top:14px;font-family: 'Roboto',serif; font-weight: 300;}
 
-.see-other{text-align: center;}
+.see-other{padding-bottom: 58px; padding-top: 28px;text-align: center;}
 .see-other-link{display: inline-block; width: 280px;height: 38px; border-radius:2rem; border: 2px solid #ff4e50;text-decoration: none; font-size: 14px; color: #ff4e50; line-height:38px;}
