@@ -1,7 +1,8 @@
 @media (min-width:321px) {
 
 .container {
-    width:492px;
+    width: 100%;
+    max-width:492px;
 }
 .menu  {
     display: inline-flex;
@@ -51,7 +52,7 @@
 @media (min-width: 961px) {
 
     .container {
-        width:940px;
+        max-width:940px;
     }
     .back-layout {
         background-image: url(./image/photo-desk.png);
